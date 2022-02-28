@@ -1,0 +1,32 @@
+html {
+  margin: 0 auto;
+  font-family: "Poppins", "Marvel", sans-serif;
+  background-color: grey;
+}
+body {
+  width: 600px;
+  margin: 20px auto;
+  border: 5px solid black;
+  padding: 0 20px;
+  background-color: goldenrod;
+}
+h1 {
+  text-align: center;
+  color: darkblue;
+  text-shadow: 3px 0px 2px black;
+  letter-spacing: 1px;
+}
+img {
+  margin: auto 250px;
+}
+a {
+  color: blue;
+  font-weight: bold;
+}
+p,
+li {
+  line-height: 2;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-size: small;
+}
