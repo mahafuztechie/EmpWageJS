@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 2px;
+  font-family: "Poppins", sans-serif;
+  background-color: whitesmoke;
+}
+.headerContainer {
+  background-color: rgb(6, 146, 127);
+  height: 30px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 50;
+  align-items: center;
+  margin: 5px;
+}
+div {
+  width: 50vw;
+  height: 50px;
+  display: flex;
+}
+label {
+  width: 20%;
+  font-size: small;
+  color: gray;
+  text-transform: capitalize;
+}
+input {
+  width: 40%;
+  height: max-content;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  border: 1px solid rgb(56, 231, 231);
+}
+
+output {
+  width: 30%;
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
+#submit {
+  width: 20%;
+  font-size: 12px;
+  font-style: italic;
+  color: white;
+  background-color: rgb(6, 146, 127);
+  border-radius: 20px;
+}
+.btn {
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 360px) {
+  h1 {
+    font-size: 40px;
+    align-content: center;
+    text-align: center;
+  }
+  label {
+    width: 33%;
+    font-size: smaller;
+    text-align: left;
+  }
+  output {
+    font-size: 10px;
+  }
+  form {
+    margin-top: 20px;
+  }
+  #submit {
+    font-size: 10px;
+    width: max-content;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 30px;
+  }
+  label {
+    width: 100%;
+    text-align: left;
+  }
+  input {
+    width: 98%;
+    margin: 0px 1px;
+  }
+  div {
+    justify-content: initial;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  output {
+    font-size: 10px;
+  }
+  #submit {
+    font-size: 10px;
+    width: max-content;
+  }
+}
